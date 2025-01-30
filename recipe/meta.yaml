@@ -27,7 +27,7 @@ requirements:
 
 test:
   imports:
-    - google_drive_downloader
+    - googledrivedownloader
   requires:
     - python {{ python_min }}
     - pip
