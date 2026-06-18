@@ -23,6 +23,8 @@ requirements:
   run:
     - python >={{ python_min }}
     - requests
+  commands:
+    - pip check
 
 test:
   imports:
